@@ -50,6 +50,27 @@
       margin: auto;
     }  
 
+    .tour-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      text-align: left;
+    }
+
+    .tour-text {
+      flex: 1 1 300px;
+    }
+
+    .tour-img {
+      flex: 1 1 300px;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      height: auto;
+    }
+
   </style>
   <!-- End of style sheet: -->
 
@@ -68,28 +89,47 @@
 
 
   </nav>
+  
   <section id="northshore">
-    <h2>North Shore Photo Tour</h2>
-    <p>Photograph the scenic beauty of Vancouver's North Shore through your lens with a guided tour!.</p>
-    <p>Capilano suspension Bridge, Deep cove, Cypress mountains and many more.</p>
-    <p>We time our tour for optimal lighting and minimal crowds.</p>
-    <p>Photography tips and personalized guidance are provided throughout the trip.</p>
+    <div class="tour-container">
+      <img src="northshore.png" class="tour-img" alt="Image of North Shore at night">
+      <div class="tour-text">
+        <h2>North Shore Photo Tour</h2>
+        <p>Photograph the scenic beauty of Vancouver's North Shore through your lens with a guided tour!</p>
+        <p>Capilano Suspension Bridge, Deep Cove, Cypress Mountains and more.</p>
+        <p>We time our tour for optimal lighting and minimal crowds.</p>
+        <p>Photography tips and personalized guidance are provided throughout the trip.</p>
+      </div>
+    </div>
   </section>
 
   <section id="whistler">
-    <h2>Whistler Day Photo Adventure</h2>
-    <p>A day trip to the exotic ski resort of Whistler.</p>
-    <p>Squamish, Gondola and Waterfalls included!</p>
-    <p>Capture alpine lakes, ski villages, and mountain reflections on this guided outing.</p>
-    <p>Stops include Shannon Falls, Brandywine Falls, and the Sea-to-Sky Highway vistas.</p>
+
+    <div class="tour-container">
+      <img src="whistler.png" class="tour-img" alt="Whistler">
+      <div class="tour-text">
+        <h2>Whistler Day Photo Adventure</h2>
+        <p>A day trip to the exotic ski resort of Whistler.</p>
+        <p>Squamish, Gondola and Waterfalls included!</p>
+        <p>Capture alpine lakes, ski villages, and mountain reflections on this guided outing.</p>
+        <p>Stops include Shannon Falls, Brandywine Falls, and the Sea-to-Sky Highway vistas.</p>
+      </div>
+    </div>
   </section>
 
   <section id="victoria">
-    <h2>Victoria Day Trip</h2>
-    <p>Experience and Capture the charm of BC's capital city on a scenic photo tour.</p>
-    <p>Capture heritage architecture, harbor views, and flower-filled parks in downtown Victoria.</p>
-    <p>We guide you through Parliament Buildings, Inner Harbour, and Fan Tan Alley.</p>
-    <p>Sydney fisherman's wharf included!</p>
+
+    <div class="tour-container">
+      <img src="victoria.png" class="tour-img" alt="Victoria">
+      <div class="tour-text">
+        <h2>Victoria Day Trip</h2>
+        <p>Experience and capture the charm of BC's capital city on a scenic photo tour.</p>
+        <p>Capture heritage architecture, harbor views, and flower-filled parks in downtown Victoria.</p>
+        <p>We guide you through Parliament Buildings, Inner Harbour, and Fan Tan Alley.</p>
+        <p>Sydney Fisherman's Wharf included!</p>
+
+      </div>
+    </div>
   </section>
 
   <section id="Overview">
