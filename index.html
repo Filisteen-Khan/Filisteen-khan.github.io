@@ -50,6 +50,27 @@
       margin: auto;
     }  
 
+    .tour-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      text-align: left;
+    }
+
+    .tour-text {
+      flex: 1 1 300px;
+    }
+
+    .tour-img {
+      flex: 1 1 300px;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      height: auto;
+    }
+
   </style>
   <!-- End of style sheet: -->
 
@@ -60,17 +81,26 @@
     <h1>Vancouver Photo Tours</h1>
   </header>
   <nav>
+   
     <a href="#northshore">North Shore</a>
     <a href="#whistler">Whistler</a>
     <a href="#victoria">Victoria</a>
+    <a href="#Overview "> About us </a>
+
 
   </nav>
+  
   <section id="northshore">
-    <h2>North Shore Photo Tour</h2>
-    <p>Photograph the scenic beauty of Vancouver's North Shore through your lens with a guided tour!.</p>
-    <p>Capilano suspension Bridge, Deep cove, Cypress mountains and many more.</p>
-    <p>We time our tour for optimal lighting and minimal crowds.</p>
-    <p>Photography tips and personalized guidance are provided throughout the trip.</p>
+    <div class="tour-container">
+      <img src="northshore.png" class="tour-img" alt="Image of North Shore at night">
+      <div class="tour-text">
+        <h2>North Shore Photo Tour</h2>
+        <p>Photograph the scenic beauty of Vancouver's North Shore through your lens with a guided tour!</p>
+        <p>Capilano Suspension Bridge, Deep Cove, Cypress Mountains and more.</p>
+        <p>We time our tour for optimal lighting and minimal crowds.</p>
+        <p>Photography tips and personalized guidance are provided throughout the trip.</p>
+      </div>
+    </div>
   </section>
 
   <section id="whistler">
@@ -88,6 +118,11 @@
     <p>We guide you through Parliament Buildings, Inner Harbour, and Fan Tan Alley.</p>
     <p>Sydney fisherman's wharf included!</p>
   </section>
+
+  <section id="Overview">
+    <h2>About us</h2>
+    <p> We are a group of BC based experienced photographers </p>
+    <p> guiding you to capture the charm of BC's capital city on a scenic photo tour.</p>
 
   <footer>
     <p>&copy; 2025 Vancouver Photo Tours. All rights reserved.</p>
